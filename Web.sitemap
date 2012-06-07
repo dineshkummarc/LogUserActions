@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Home">
+      <siteMapNode url="~/UsersOnly/Default.aspx" title="Auth. Users Only" />
+      <siteMapNode url="~/WhoIsOnline.aspx" title="Who Is Online?" />
+      <siteMapNode url="~/ActivityHistoryByUser.aspx" title="View User History" />
+      <siteMapNode url="~/About.aspx" title="About" />
+    </siteMapNode>
+</siteMap>

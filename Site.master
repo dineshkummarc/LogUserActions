@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+            <div id="header">
+                <div id="leftheader">Navigation</div>
+                <div id="rightheader">
+                    <asp:LoginView ID="LoginView1" runat="server">
+                        <LoggedInTemplate>
+                            Welcome back,
+                            <asp:LoginName ID="LoginName1" runat="server" />
+                            [<asp:LoginStatus ID="LoginStatus1" runat="server" />]
+                        </LoggedInTemplate>
+                        <AnonymousTemplate>
+                            <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                        </AnonymousTemplate>
+                    </asp:LoginView>
+                </div>
+            </div>
+
+            <div id="leftColumn">
+                <ul class="leftmenu">
+                    <li><asp:HyperLink runat="server" ID="lnkHome" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></li>
+                    <asp:Repeater runat="server" ID="menu" DataSourceID="WebSiteMapDataSource">
+                        <ItemTemplate>
+                            <li><asp:HyperLink runat="server" ID="lnkNode" NavigateUrl='<%# Eval("Url") %>'><%# Eval("Title") %></asp:HyperLink></li>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                    <asp:SiteMapDataSource ID="WebSiteMapDataSource" ShowStartingNode="false" runat="server" />
+                </ul>
+
+                <div id="address">
+                   <p>
+                    This layout was designed by <a href="http://www.csstemplatesweb.com/">CssTemplatesWeb.com</a>, and is available
+                    for download from <a href="http://www.opendesigns.org/preview/?template=1802">OpenDesigns.org</a>.
+                   </p>
+                </div>
+            </div>
+
+            <div id="content">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="footer"><p>Copyright <a href="http://www.csstemplatesweb.com">Csstemplatesweb.com</a> - 2008</p></div>
+        </div>
+    </form>
+</body>
+</html>

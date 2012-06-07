@@ -1,0 +1,3 @@
+﻿<asp:GridView runat="server" Width="95%" AllowPaging="True">
+    <HeaderStyle CssClass="GridHeader" />
+</asp:GridView>

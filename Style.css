@@ -1,0 +1,362 @@
+/* Css document by Svein Erik Storkaas - CssTemplatesWeb.com | 2008 */
+
+
+* {margin: 0 auto;
+padding: 0;}
+
+body 
+{
+margin-top:30px;
+font-family:"trebuchet ms", sans-serif; 
+}
+
+#container 
+{
+width:1000px;
+background-image: url(images/bg_tile.png);
+background-repeat: repeat-y;
+}
+
+#header
+{
+background-image: url(images/bg_top.png);
+width:1000px;
+height:53px;
+}
+
+#leftheader
+{
+    float:left;    
+    width:120px;
+    height:30px;
+    margin-left:60px;
+    margin-top:20px;    
+    font-family:"Trebuchet MS";
+    font-size:17px;
+    color:#26100b;
+}
+
+#rightheader
+{
+float:right;
+width:112px;
+height:30px;
+margin-right:40px;
+margin-top:20px;
+font-family:"trebuchet ms", sans-serif; 
+}
+
+.subscribe
+{
+    margin-top:-20px;
+    margin-left:32px;
+    font-style:italic;
+    font-weight:500;
+    font-family:Georgia;
+}
+
+#topmenu 
+{
+margin-left:178px;
+width: 770px;
+height:29px;
+}
+
+#leftColumn 
+{
+float:left;
+width: 170px;
+margin:10px 0 0 24px;
+}
+
+#address 
+{
+width:138px;	
+background-color: #fff;
+margin-top: 30px;
+margin-bottom: 0px;
+margin-left:0px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 15px;
+padding-bottom:15px;
+border-left: 1px solid #ccc;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;	
+}
+
+#address p
+{
+text-align:center;
+font-style:normal;	
+font-size:11px;
+color:#CC3300; 
+line-height:1.6em;
+}
+
+#content
+{
+width:749px;
+margin-left:225px;
+}
+
+#content p 
+{
+margin-left:20px; 
+margin-bottom:0px; 
+margin-right:20px; 
+padding-bottom:25px; 
+padding-top:10px; 
+font-family:"trebuchet ms", sans-serif; 
+color:#666; 
+font-size:0.8em;
+line-height:1.45em;
+}
+
+#content p span
+{
+font-size:1em;
+letter-spacing:0.2em;
+font-family:Arial;
+font-weight:600;
+}
+
+.newsimages
+{
+float:right;
+padding:0 0 8px 8px;
+}
+
+/*Small headline*/
+h3{
+font-family: "Gill Sans", Verdana;
+font-size: 10px;
+line-height: 14px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: bold;
+color:#006600;
+}
+
+h3 span { color: #CC3300; } /* Orange for the span in h3 */
+
+
+/* Large Headline */
+h2{
+font-family: times, "Times New Roman", times-roman, georgia, serif;
+color: #444;
+margin: 0;
+padding: 0px 0px 0px 0px;
+font-size: 42px;
+line-height: 44px;
+letter-spacing: -2px;
+font-weight: bold;
+}
+
+#footer
+{
+clear: both;
+background-image: url(images/bg_bottom.png);
+height: 50px;
+}
+
+#footer p
+{
+text-align:center;  padding-top:30px; font-family:"trebuchet ms", sans-serif; color:#666; font-size:0.8em;
+}
+
+a:link {color: #006600; text-decoration:none;}
+a:visited {color: #006600; text-decoration:none;}
+a:hover {color: #006600; text-decoration:none;}
+a:active {color: #006600; text-decoration:none;}
+
+img{ border:none;}
+
+/************** Left menu *******************/
+
+ul.leftmenu 
+{    
+list-style: none; /* remove the bullets */
+margin: 0; /* remove the automatic margin that some browsers use for the text-indent. */
+padding:0; /* remove the automatic padding that other browsers use for the text-indent. */
+width:169px; /* fix the width of the list items which would default to 100% */
+}
+ul.leftmenu a, ul.leftmenu a:visited, ul.leftmenu a:active {
+text-decoration:none; /* remove the default underline from the links */
+display:block; /* make each link into a block so that hovering over any area of the link will cause a change of background color */
+width:169px; /*set the width to be the same as the ul width */
+text-indent:15px; /* move the link text 5px to the right */
+padding:5px 0 5px 0;
+background:#f1edec; /* make the background color red */
+color:#666; /* make the text color white */
+border-bottom:1px solid #ccc; /* separate the links with a 1px wide white line */
+font-family: Verdana,Arial,sans-serif; /* font family on the menu */
+font-size: 12px;
+}
+ul.leftmenu a:hover {
+background:#fff; /* change the background to white on :hover */
+}
+
+/**************** END LEFT MENU ****************/
+
+/* End Css document */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Css document by Svein Erik Storkaas - CssTemplatesWeb.com | 2008 */
